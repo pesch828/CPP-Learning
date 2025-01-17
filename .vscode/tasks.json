@@ -14,7 +14,7 @@
                 "-Wconversion",
                 "-Wsign-conversion",
                 "-std=c++2a",
-                "${file}",
+                "*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
